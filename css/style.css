@@ -1,0 +1,67 @@
+.container-fluid {
+  margin-top: 80px;
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.base {
+  background-color: black;
+  opacity: 0.7;
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: 25px 25px 40px 0px rgba(0, 0, 0, 0.33);
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  padding: 44px 14px 41px 36px;
+}
+
+button {
+  position: relative;
+  border-radius: 7px;
+  width: 75%;
+  font-size: 25px;
+  font-weight: 900;
+  margin: auto;
+}
+
+.clear {
+  background-color: red;
+  width: 60%;
+}
+
+.nums {
+  color: black;
+}
+
+.operators {
+  color: white;
+  background: blue;
+  width: 85%;
+}
+
+.number-input {
+  width: 110%;
+  height: 44px;
+  padding: 12px 70px 0 20px;
+  background-color: white;
+  position: relative;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: "Open Sans", Arial, Verdana;
+  font-size: 26px;
+  border-radius: 10px;
+  font-weight: 400;
+  line-height: 20px;
+  color: red;
+}
